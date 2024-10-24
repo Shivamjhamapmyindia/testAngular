@@ -1,0 +1,11 @@
+.content-box {
+    margin-left: 260px; /* Adjust to match sidebar width */
+    margin-top: 2.5rem;   /* Space for fixed navbar */
+    padding: 20px;
+    /* height: calc(100vh - 4rem); Full height minus navbar space */
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: none; /* Handle overflow gracefully */
+  }
+  

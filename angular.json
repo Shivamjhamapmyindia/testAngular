@@ -25,9 +25,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/theme-assets/vendors/js/vendors.min.js",
+              "src/assets/theme-assets/js/core/app-menu-lite.js",
+              "src/assets/theme-assets/js/core/app-lite.js"
+             
+            ]
           },
           "configurations": {
             "production": {
@@ -91,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
